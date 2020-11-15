@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: green;
+}
+
+.userCardContainer {
+  min-width: 220px;
+  max-width: 400px;
+  width: 100%;
+  height: 150px;
+  background-color: grey;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 5px;
+}
+.userPhoto {
+  weight: 150px;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  weight: inherit;
+  height: inherit;
+}
+.userInfo {
+  padding: 20px;
+  height: 150px;
+}
+.userStateItem {
+  display: inline-block;
+}
+.userCard > * {
+  display: inline-block;
+  vertical-align: top;
+}
