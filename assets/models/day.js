@@ -1,3 +1,4 @@
+'use strict';
 class Day{
     constructor(currentDay){
         this._currentDay = currentDay;
@@ -20,3 +21,5 @@ class Day{
 
     static date = new Date();
 }
+
+export default Day
